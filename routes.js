@@ -15,7 +15,16 @@ module.exports = function (app) {
 	  res.render('resume', { title: 'Skills' });
 	});
 
-	app.get('/contact', function(req, res){
-	  res.render('contact', { title: 'Contact' });
+	app.post('/contact', function(req, res){
+		var name = req.body.name,
+		    email = req.body.email,
+		    message = req.body.message;
+			function redirect()
+			{
+				window.location.href = "mailto:krista.goralczyk@gmail.com";
+			}
+
+			return redirect();
+
 	});
 }

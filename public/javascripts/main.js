@@ -1,1 +1,1 @@
-// Register partials
+// Site javascript
