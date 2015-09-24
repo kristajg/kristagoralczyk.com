@@ -111,6 +111,12 @@ a.logo img {
 }
 .banner .banner-text ul a:hover {
   background-color: #fff;
+  -webkit-transition: 200ms background-color linear;
+  -moz-transition: 200ms background-color linear;
+  transition: 200ms background-color linear;
+  -webkit-transition: 200ms color linear;
+  -moz-transition: 200ms color linear;
+  transition: 200ms color linear;
 }
 .about {
   padding: 25px 0px 25px 0px;

@@ -19,12 +19,5 @@ module.exports = function (app) {
 		var name = req.body.name,
 		    email = req.body.email,
 		    message = req.body.message;
-			function redirect()
-			{
-				window.location.href = "mailto:krista.goralczyk@gmail.com";
-			}
-
-			return redirect();
-
 	});
 }
