@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const AboutWrapper = styled.div`
   padding: 50px 20%;
-  height: 100vh;
   @media (max-width: 480px) {
     padding: 20px 5%;
   }
