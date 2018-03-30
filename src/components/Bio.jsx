@@ -43,8 +43,8 @@ export default () => (
       <p>
         Well, hello! I'm an Austin-based developer and sales engineer.
         With a firm foundation in coding, software project management, and sales, I am comfortable working in a wide range of technical as well as business-oriented roles.
-        Check out some of my Github projects <Link href='github.com/kristajg' target='_blank'>here</Link>!
-        Also check out this <Link href='' target='_blank'> open source soundboard project I made in ReactJS</Link> if you are into annoying drum and synth sounds!
+        Check out some of my Github projects <Link href='https://github.com/kristajg' target='_blank'>here</Link>!
+        Also check out this <Link href='https://github.com/MerlinLabs/soundboard-demo' target='_blank'> open source soundboard project I made in ReactJS</Link> if you are into annoying drum and synth sounds!
       </p>
       <p>
         I'm available to do freelance work or supply witty puns.
