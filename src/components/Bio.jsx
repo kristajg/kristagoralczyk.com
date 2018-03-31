@@ -41,8 +41,8 @@ export default () => (
     <Line />
     <AboutContent>
       <p>
-        Well, hello! I'm an Austin-based developer and sales engineer.
-        With a firm foundation in coding, software project management, and sales, I am comfortable working in a wide range of technical as well as business-oriented roles.
+        Well, hello! I'm Krista Goralczyk, an Austin-based developer and sales engineer.
+        With a foundation in coding, project management, and sales, I am comfortable working in a wide range of technical as well as business-oriented roles.
         Check out some of my Github projects <Link href='https://github.com/kristajg' target='_blank'>here</Link>!
         Also check out this <Link href='https://github.com/MerlinLabs/soundboard-demo' target='_blank'> open source soundboard project I made in ReactJS</Link> if you are into annoying drum and synth sounds!
       </p>
@@ -51,7 +51,7 @@ export default () => (
         Drop me a line at <Link href='mailto:krista.goralczyk@gmail.com'>krista.goralczyk@gmail.com</Link>
       </p>
       <p>
-        Maybe I should have started with <i>howdy</i> instead of <i>hello</i>, but I'm originally from Pittsburgh and still getting used to <i>y'all</i>, but I dig it.
+        Maybe I should have started with <i>howdy</i> instead of <i>hello</i>, but I'm originally from Pittsburgh. Although I'm really enjoying using <i>y'all</i>.
       </p>
     </AboutContent>
   </AboutWrapper>
