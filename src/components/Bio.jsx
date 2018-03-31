@@ -41,13 +41,13 @@ export default () => (
     <Line />
     <AboutContent>
       <p>
-        Well, hello! I'm Krista Goralczyk, an Austin-based developer and sales engineer.
+        Hello! I'm Krista Goralczyk, an Austin-based developer and solutions consultant. Some say I know a thing or two about computers.
         With a foundation in coding, project management, and sales, I am comfortable working in a wide range of technical as well as business-oriented roles.
         Check out some of my Github projects <Link href='https://github.com/kristajg' target='_blank'>here</Link>!
         Also check out this <Link href='https://github.com/MerlinLabs/soundboard-demo' target='_blank'> open source soundboard project I made in ReactJS</Link> if you are into annoying drum and synth sounds!
       </p>
       <p>
-        I'm available to do freelance work or supply witty puns.
+        I'm available to do freelance work or supply quality puns.
         Drop me a line at <Link href='mailto:krista.goralczyk@gmail.com'>krista.goralczyk@gmail.com</Link>
       </p>
       <p>

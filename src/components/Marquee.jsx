@@ -43,7 +43,7 @@ class Marquee extends PureComponent {
             src={require('../assets/img/catAnimation.gif')} />
           <SubText>
             <h1>Krista Goralczyk</h1>
-            Full-Stack Developer & Sales Engineer
+            Full-Stack Developer & Solutions Consultant
           </SubText>
         </ContentWrapper>
       </HeaderContainer>
