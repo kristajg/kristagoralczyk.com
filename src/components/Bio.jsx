@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { pink, gray, liteGray } from '../styles/global';
 
 const AboutWrapper = styled.div`
-  padding: 50px 20%;
+  padding: 50px 20% 150px 20%;
   background-size: 100%;
 
   @media (max-width: 480px) {
-    padding: 20px 5%;
+    padding: 20px 5% 40px 5%;
   }
 `;
 
