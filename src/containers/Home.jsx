@@ -1,17 +1,16 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import Marquee from '../components/Marquee';
 import Bio from '../components/Bio';
-// import FeaturedProjects from '../components/FeaturedProjects';
+// import ProjectGallery from '../components/ProjectGallery';
 import Footer from '../components/Footer';
 
-export default class Home extends PureComponent {
-  render() {
-    return (
-      <div>
-        <Marquee />
-        <Bio />
-        <Footer />
-      </div>
-    );
-  }
-}
+const Home = () => (
+  <div>
+    <Marquee />
+    <Bio />
+    {/* <ProjectGallery /> */}
+    <Footer />
+  </div>
+);
+
+export default Home;

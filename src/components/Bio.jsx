@@ -1,79 +1,80 @@
 import React from 'react';
 import styled from 'styled-components';
+import { pink, gray, liteGray } from '../styles/global';
 
 const AboutWrapper = styled.div`
   padding: 50px 20%;
   background-size: 100%;
+
   @media (max-width: 480px) {
     padding: 20px 5%;
   }
 `;
 
 const Header = styled.div`
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #d14774;
+  color: ${pink};
   padding-bottom: 25px;
   text-transform: uppercase;
   text-align: center;
 `;
 
 const AboutContent = styled.div`
-  font-size: 24px;
-  line-height: 32px;
-  color: #d14774;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: ${gray};
   text-align: center;
 `;
 
 const BioImage = styled.img`
-  border: 3px solid #d9d9d9;
+  border: 1px solid ${liteGray};
   border-radius: 50%;
   height: 220px;
 `;
 
-const Line = styled.hr`
-  width: 15%;
+const Line = styled.div`
+  margin: 0 auto;
+  width: 18%;
   margin-bottom: 25px;
+  border-bottom: 1px solid ${liteGray};
 `;
 
 const Link = styled.a`
   text-decoration: none;
-  color: #0000be;
+  color: ${pink};
 `;
+
+const paragraphOne = 'I\'m Krista Goralczyk, a full stack developer living in Austin Texas. I like to code, draw, and write (gallery & blog coming soon... gotta corral all those cats here). Comedy on the side too, just for funsies.';
 
 export default () => (
   <AboutWrapper>
-    <Header>About Me</Header>
+    <Header>Howdy Y&#39;all</Header>
     <Line />
     <AboutContent>
       <BioImage src={require('../assets/img/kg.jpg')} alt="Cool pic of KG" />
+      <p>{paragraphOne}</p>
       <p>
-        Hey there. I&#39;m Krista Goralczyk, an Austin-based full stack developer.
-      </p>
-      <p>
-        With experience in both coding and solutions engineering, I understand the gamut of what
-        {' '}it takes to build software as well as run a business.
-         Check out my{' '}
+        With 10 years experience in coding, sales, and project management, I understand the gamut of what it takes to build and productize software.
+         See my{' '}
         <Link href="https://github.com/kristajg" target="_blank">
-          Github projects here
+          Github projects
         </Link>
-        . I also built an{' '}
+        , including a
         <Link
           href="https://github.com/MerlinLabs/soundboard-demo"
           target="_blank"
         >
           {' '}
-          open source soundboard project
+          soundboard
         </Link>{' '}
-       using React, Flow, and Next.
+       created with React, Flow, and Next.
       </p>
       <p>
-        I&#39;m currently available to do freelance development work and general technical
-        {' '}consultation. Drop me a line at{' '}
-        <Link href="mailto:krista.goralczyk@gmail.com">
-          krista.goralczyk@gmail.com
-        </Link>
+        Now, what can I do for you? I bring senior level experience particularly with React.js and Javascript to the table. For inquiries regarding consultation, development, or quality puns{' '}
+        <Link href="mailto:krista.goralczyk@gmail.com">drop me a line</Link>.
       </p>
     </AboutContent>
   </AboutWrapper>
