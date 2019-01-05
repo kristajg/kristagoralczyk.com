@@ -20,41 +20,41 @@ module.exports = {
     alias: {
       components: path.resolve(__dirname, 'src/components/'),
     },
-    extensions: [ '.js', '.jsx' ],
+    extensions: ['.js', '.jsx'],
   },
   node: {
-    fs: 'empty'
+    fs: 'empty',
   },
   module: {
     rules: [
-      { 
+      {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: [ 'babel-loader' ]
+        use: ['babel-loader'],
       },
       {
         test: /\.css$/,
         exclude: /node_modules/,
         use: [
           'style-loader',
-          'css-loader'
-        ]
+          'css-loader',
+        ],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
         exclude: /node_modules/,
-        use: [ 'file-loader' ]
+        use: ['file-loader'],
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         exclude: /node_modules/,
-        use: [ 'file-loader' ]
+        use: ['file-loader'],
       },
       {
         test: /\.html$/,
         exclude: /node_modules/,
-        use: [ 'html-loader' ]
-      }
-    ]
-  }
+        use: ['html-loader'],
+      },
+    ],
+  },
 };
