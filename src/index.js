@@ -5,6 +5,7 @@ import createHistory from 'history/createBrowserHistory';
 
 import App from './App';
 import Home from './containers/Home';
+import Pigeonburgh from './pigeonburgh/Pigeonburgh';
 import NotFound from './components/NotFound';
 
 const history = createHistory();
@@ -16,6 +17,7 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/pigeonburgh" component={Pigeonburgh} />
         <Route component={NotFound} />
       </Switch>
     </App>
