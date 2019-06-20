@@ -47,7 +47,7 @@ const Link = styled.a`
   color: ${pink};
 `;
 
-const paragraphOne = 'I\'m Krista Goralczyk, a full stack developer living in Austin Texas. I like to code, draw, and write (gallery & blog coming soon... gotta corral all those cats here). Comedy on the side too, just for funsies.';
+const paragraphOne = 'Oh hey there, I\'m Krista Goralczyk. Currently a full stack developer living in Austin Texas with a knack for creative endeavors on the side (gallery & blog coming soon I promise).';
 
 export default () => (
   <AboutWrapper>
@@ -57,7 +57,7 @@ export default () => (
       <BioImage src={require('../assets/img/kg.jpg')} alt="Cool pic of KG" />
       <p>{paragraphOne}</p>
       <p>
-        With 10 years experience in coding, sales, and project management, I understand the gamut of what it takes to build and productize software.
+        With 10 years experience in the tech industry, I understand the gamut of what it takes to run a successful business like a well-oiled machine.
          See my{' '}
         <Link href="https://github.com/kristajg" target="_blank">
           Github projects
