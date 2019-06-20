@@ -57,7 +57,7 @@ const Title = styled.div`
 const Subtitle = styled.div`
   font-family: 'Montserrat', sans-serif;
   color: ${gray};
-  font-size: 18px;
+  font-size: 16px;
 `;
 
 const Marquee = () => (
@@ -68,7 +68,7 @@ const Marquee = () => (
       />
       <div>
         <Title>Krista Goralczyk</Title>
-        <Subtitle>Engineer   //   Illustrator   //   Writer</Subtitle>
+        <Subtitle>Engineer   •   Illustrator   •   Writer</Subtitle>
       </div>
     </ContentWrapper>
   </HeaderContainer>
