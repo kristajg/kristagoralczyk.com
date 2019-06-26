@@ -9,7 +9,7 @@ const Stepfive = ({ changeStep, changeSubstep }) => (
     Looking into his arsenal reveals three choices of handlebar-less transportation:
     <br />
     <br />
-    <Option onClick={() => changeStep(7)}>the gnarly ripped denim traditions of a regular skateboard</Option>
+    <Option onClick={() => changeStep(7)}>the ripped denim tradition of a regular skateboard</Option>
     <br />
     <br />
     <Option onClick={() => changeStep(8)}>the big sur longboard cruiser</Option>

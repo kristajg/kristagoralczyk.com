@@ -9,6 +9,11 @@ import Stepsix from './Stepsix';
 import Stepseven from './Stepseven';
 import Stepeight from './Stepeight';
 import Stepnine from './Stepnine';
+import Stepten from './Stepten';
+import Stepeleven from './Stepeleven';
+import Steptwelve from './Steptwelve';
+import Stepthirteen from './Stepthirteen';
+import Stepfourteen from './Stepfourteen';
 import { Pigeonwrap } from './styles';
 
 // LEGEND!
@@ -54,7 +59,7 @@ class Pigeonburgh extends Component {
     const { step, substep } = this.state;
     if (step === 1) {
       if (substep === 1) {
-        return <Substep text="Yes, a pigeon. A bird. Beautiful royal blue and gray feathers. Orange feetsies." resetSubstep={this.resetSubstep} />;
+        return <Substep text="Yes, a pigeon. Stunning royal blue and gray feathers. Orange feetsies." resetSubstep={this.resetSubstep} />;
       }
       return <Stepone changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
     } else if (step === 2) {
@@ -66,7 +71,7 @@ class Pigeonburgh extends Component {
       return <Stepthree changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
     } else if (step === 4) {
       if (substep === 1) {
-        return <Substep text="Probably cooler than you. Wearing t-shirts featuring bands you’ve never heard of: Death by Plastic Burial, Puddleslap, Figboy and the Newtons." resetSubstep={this.resetSubstep} />;
+        return <Substep text="Probably cooler than you. Wearing t-shirts featuring bands you’ve never heard of: Death by Plastic Monstertruck, Puddleslap, Figboy and the Newtons." resetSubstep={this.resetSubstep} />;
       }
       return <Stepfour changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
     } else if (step === 5) {
@@ -79,7 +84,18 @@ class Pigeonburgh extends Component {
       return <Stepeight changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
     } else if (step === 9) {
       return <Stepnine changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+    } else if (step === 10) {
+      return <Stepten changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+    } else if (step === 11) {
+      return <Stepeleven changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+    } else if (step === 12) {
+      return <Steptwelve changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+    } else if (step === 13) {
+      return <Stepthirteen changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
+    } else if (step === 14) {
+      return <Stepfourteen changeStep={this.changeStep} changeSubstep={this.changeSubstep} resetSubstep={this.resetSubstep} />;
     }
+    return true;
   }
 
   render() {

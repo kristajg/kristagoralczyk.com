@@ -9,10 +9,10 @@ const Stepone = ({ changeStep, changeSubstep }) => (
     You are a <Option onClick={() => changeSubstep(1)}>pigeon</Option> in your prime. How coo is that? You guess it's pretty coo.
     <br />
     <br />
-    Yaaaaaaawn. What a beautiful day in the neighborhood! Rays from the rising sun shine through the thin clouds, onto the surrounding rivers and city buildings.
+    Yaaaaaaawn. What a beautiful day in the neighborhood. The rising sun shines through sparse clouds, illuminating the surrounding rivers and city buildings.
     <br />
     <br />
-    A nice large corn chip rests conveniently by your feetsies. Do you...
+    A corn chip rests conveniently by your feetsies. Do you...
     <br /><br />
     <Option onClick={() => changeStep(2)}>Crunch that chip</Option>
     <br /><br />
